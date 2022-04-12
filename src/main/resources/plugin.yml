@@ -1,0 +1,23 @@
+name: BattleRoyale
+version: ${project.version}
+main: me.snazzy.battleroyale.Main
+api-version: 1.17
+authors: [ Mr_Snazzy ]
+description: Handles most aspects of the Battle Royale minigame.
+commands:
+  ready:
+    usage: ready
+  unready:
+    usage: unready
+  force:
+    usage: force <start|end>
+    permission: force.use
+    permission-message: "You don't have the required permission for this command."
+  fix:
+    usage: fix
+    permission: fix.use
+    permission-message: "You don't have the required permission for this command."
+  refill:
+    usage: refill
+    permission: refill.use
+    permission-message: "You don't have the required permission for this command."
