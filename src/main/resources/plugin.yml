@@ -2,7 +2,7 @@ name: BattleRoyale
 version: ${project.version}
 main: me.snazzy.battleroyale.Main
 api-version: 1.17
-authors: Aki Developer 
+authors: Aki
 description: Handles most aspects of the Battle Royale minigame.
 commands:
   ready:
